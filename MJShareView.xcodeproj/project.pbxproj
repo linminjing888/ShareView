@@ -15,6 +15,7 @@
 		AE54FB191D5762400008FC03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE54FB171D5762400008FC03 /* LaunchScreen.storyboard */; };
 		AE54FB241D5762400008FC03 /* MJShareViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE54FB231D5762400008FC03 /* MJShareViewTests.m */; };
 		AE54FB2F1D5762410008FC03 /* MJShareViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE54FB2E1D5762410008FC03 /* MJShareViewUITests.m */; };
+		AE54FB3E1D5762700008FC03 /* XFPublishView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE54FB3D1D5762700008FC03 /* XFPublishView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		AE54FB2A1D5762410008FC03 /* MJShareViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MJShareViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE54FB2E1D5762410008FC03 /* MJShareViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJShareViewUITests.m; sourceTree = "<group>"; };
 		AE54FB301D5762410008FC03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE54FB3C1D5762700008FC03 /* XFPublishView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFPublishView.h; sourceTree = "<group>"; };
+		AE54FB3D1D5762700008FC03 /* XFPublishView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFPublishView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				AE54FB0F1D5762400008FC03 /* ViewController.h */,
 				AE54FB101D5762400008FC03 /* ViewController.m */,
 				AE54FB121D5762400008FC03 /* Main.storyboard */,
+				AE54FB3C1D5762700008FC03 /* XFPublishView.h */,
+				AE54FB3D1D5762700008FC03 /* XFPublishView.m */,
 				AE54FB151D5762400008FC03 /* Assets.xcassets */,
 				AE54FB171D5762400008FC03 /* LaunchScreen.storyboard */,
 				AE54FB1A1D5762400008FC03 /* Info.plist */,
@@ -272,6 +277,7 @@
 			files = (
 				AE54FB111D5762400008FC03 /* ViewController.m in Sources */,
 				AE54FB0E1D5762400008FC03 /* AppDelegate.m in Sources */,
+				AE54FB3E1D5762700008FC03 /* XFPublishView.m in Sources */,
 				AE54FB0B1D5762400008FC03 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
