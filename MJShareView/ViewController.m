@@ -40,6 +40,8 @@
     }else if (tag==2)
     {
         NSLog(@"222");
+    }else{
+        NSLog(@"CLOSE");
     }
 }
 - (void)didReceiveMemoryWarning {
